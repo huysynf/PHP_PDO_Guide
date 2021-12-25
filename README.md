@@ -8,7 +8,7 @@ const DB_NAME = "curd";
 CONST USER_NAME = "root";
 CONST USER_PASSWORD = "";
 
-$connection = new PDO( new PDO("$DB_TYPE:host=$DB_HOST;dbname=$DB_NAME", $USER_NAME, $USER_PASSWORD););
+$connection =  new PDO("$DB_TYPE:host=$DB_HOST;dbname=$DB_NAME", $USER_NAME, $USER_PASSWORD);
 
 
 ```
