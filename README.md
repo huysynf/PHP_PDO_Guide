@@ -20,9 +20,7 @@ Thao tác insert được thực hiện qua 3 quá trình
 - Execute: Thực thi câu lệnh.
 
 ## 2.1 Prepared Statement
-```text
 Có 2 loại Placeholder trong Prepared Statement là Placeholder không định danh (Unnamed Placeholder) và Placeholder định danh (Named Placeholder) như ví dụ sau
-```
 ```php 
 $stmt = $conn->prepare('INSERT INTO users (name, email, age) values (?, ?, ?)');
 $stmt = $conn->prepare('INSERT INTO users (name, email, age) values (:name, :mail, :age)');
